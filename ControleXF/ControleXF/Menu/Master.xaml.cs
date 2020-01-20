@@ -21,5 +21,9 @@ namespace ControleXF.Menu
         {
             Detail = new Controles.ActivityIndicatorPage();
         }
+        private void GoProgressBarPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.ProgressBarPage();
+        }
     }
 }
