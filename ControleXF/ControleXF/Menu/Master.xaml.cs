@@ -25,5 +25,45 @@ namespace ControleXF.Menu
         {
             Detail = new Controles.ProgressBarPage();
         }
+        private void GoBoxViewPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.BoxViewPage();
+        }
+        private void GoLabelPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.LabelPage();
+        }
+        private void GoButtonPage (object sender, EventArgs args)
+        {
+            Detail = new Controles.ButtonPage();
+        }
+        private void GoEntryEditorPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.EntryEditorPage();
+        }
+        private void GoDatePickerPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.DatePickerPage();
+        }
+        private void GoTimePickerPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.TimerPickerPage();
+        }
+        private void GoPickerPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.PickerPage();
+        }
+        private void GoSearchBarPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.SearchBarPage();
+        }
+        private void GoSliderStepperPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.SliderStepperPage();
+        }
+        private void GoSwitchPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.SwitchPage();
+        }
     }
 }
