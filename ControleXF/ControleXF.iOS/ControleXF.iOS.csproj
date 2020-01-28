@@ -135,4 +135,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\Button.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Usb%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Usb%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Usb%403x.png" />
+  </ItemGroup>
 </Project>

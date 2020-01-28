@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ControleXF.Controles.ImagePage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout x:Name="Container">
+            <Image 
+                Source="https://img3.gratispng.com/dy/f02f51bbbf8b13abfbe3114ae3029423/L0KzQYm3WMA3N6lqgpH0aYP2gLBuTfxwb5CyhdtscnB2f7f7TfNweqF0itN9aXBxPbP5gf5lNahuhtZ4d4Owg7b5lvVzNWM1RadrNki7Rba6UfI0aZY4Rqc8OEe7SYe7UcU0O2Y8TqgCNUG0QYe1kP5o/kisspng-logo-microsoft-corporation-brand-windows-server-20-5b6885e31b3ae3.5387896415335766751116.png"
+                Aspect="AspectFit"
+                IsOpaque="True"
+                x:Name="ImageOne"
+                
+            />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
