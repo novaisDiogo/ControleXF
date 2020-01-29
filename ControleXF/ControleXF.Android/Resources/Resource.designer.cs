@@ -5796,6 +5796,9 @@ namespace ControleXF.Droid
 			// aapt resource value: 0x7F070076
 			public const int tooltip_frame_light = 2131165302;
 			
+			// aapt resource value: 0x7F070077
+			public const int Usb = 2131165303;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

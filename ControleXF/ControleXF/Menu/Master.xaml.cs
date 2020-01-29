@@ -33,7 +33,7 @@ namespace ControleXF.Menu
         {
             Detail = new Controles.LabelPage();
         }
-        private void GoButtonPage (object sender, EventArgs args)
+        private void GoButtonPage(object sender, EventArgs args)
         {
             Detail = new Controles.ButtonPage();
         }
@@ -72,6 +72,14 @@ namespace ControleXF.Menu
         private void GoListViewPage(object sender, EventArgs args)
         {
             Detail = new Controles.ListViewPage();
+        }
+        private void GoTableViewPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.TableViewPage();
+        }
+        private void GoWebViewPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.WebViewPage();
         }
     }
 }
